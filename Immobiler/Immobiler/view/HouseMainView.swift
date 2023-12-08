@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct HouseMainView: View {
-    @State var house : House
+    @Binding var house : House
     var body: some View {
-        NavigationLink(destination: CaractView(house:house)) {
+        NavigationLink(destination: CaractView(house:$house)) {
             HStack{
                 Image(house.image)
                     .resizable()
@@ -41,6 +41,6 @@ struct HouseMainView: View {
 
 struct HouseMainView_Previews: PreviewProvider {
     static var previews: some View {
-        HouseMainView(house : (House(numb:1, type: "Appartment",rooms:4,price:100000,image: "appartement1"))).previewLayout(.sizeThatFits)
+        HouseMainView(house : .constant(House(numb:1, type: "Appartment",rooms:4,price:100000,image: "appartement1"))).previewLayout(.sizeThatFits)
     }
 }

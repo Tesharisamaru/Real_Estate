@@ -11,8 +11,8 @@ struct CatalogView: View {
 
     var body: some View {
         VStack {
-            List(repository.houses) { house in
-                HouseMainView(house: house)
+            List($repository.houses) { $house in
+                HouseMainView(house: $house)
             }
             .navigationTitle("Real Estate")
         }
