@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A141B08F2B022A010009CB7A /* ImmobilerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141B08E2B022A010009CB7A /* ImmobilerApp.swift */; };
+		A141B0932B022A020009CB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A141B0922B022A020009CB7A /* Assets.xcassets */; };
+		A141B0962B022A020009CB7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A141B0952B022A020009CB7A /* Preview Assets.xcassets */; };
+		A141B0A02B022A020009CB7A /* ImmobilerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141B09F2B022A020009CB7A /* ImmobilerTests.swift */; };
+		A141B0AA2B022A020009CB7A /* ImmobilerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141B0A92B022A020009CB7A /* ImmobilerUITests.swift */; };
+		A141B0AC2B022A020009CB7A /* ImmobilerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141B0AB2B022A020009CB7A /* ImmobilerUITestsLaunchTests.swift */; };
+		A141B0BB2B022B6B0009CB7A /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141B0BA2B022B6B0009CB7A /* House.swift */; };
+		A141B0BE2B022C750009CB7A /* HouseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141B0BD2B022C750009CB7A /* HouseRepository.swift */; };
+		A141B0C12B022E580009CB7A /* HouseMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141B0C02B022E580009CB7A /* HouseMainView.swift */; };
+		A141B0C32B0231D80009CB7A /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A141B0C22B0231D80009CB7A /* CatalogView.swift */; };
+		A1B99A0B2B0B55AD00E3F6A1 /* CaractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B99A0A2B0B55AD00E3F6A1 /* CaractView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A141B09C2B022A020009CB7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A141B0832B022A010009CB7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A141B08A2B022A010009CB7A;
+			remoteInfo = Immobiler;
+		};
+		A141B0A62B022A020009CB7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A141B0832B022A010009CB7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A141B08A2B022A010009CB7A;
+			remoteInfo = Immobiler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A141B08B2B022A010009CB7A /* Immobiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Immobiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A141B08E2B022A010009CB7A /* ImmobilerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmobilerApp.swift; sourceTree = "<group>"; };
+		A141B0922B022A020009CB7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A141B0952B022A020009CB7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A141B09B2B022A020009CB7A /* ImmobilerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImmobilerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A141B09F2B022A020009CB7A /* ImmobilerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmobilerTests.swift; sourceTree = "<group>"; };
+		A141B0A52B022A020009CB7A /* ImmobilerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImmobilerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A141B0A92B022A020009CB7A /* ImmobilerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmobilerUITests.swift; sourceTree = "<group>"; };
+		A141B0AB2B022A020009CB7A /* ImmobilerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmobilerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A141B0BA2B022B6B0009CB7A /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		A141B0BD2B022C750009CB7A /* HouseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRepository.swift; sourceTree = "<group>"; };
+		A141B0C02B022E580009CB7A /* HouseMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseMainView.swift; sourceTree = "<group>"; };
+		A141B0C22B0231D80009CB7A /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		A1B99A0A2B0B55AD00E3F6A1 /* CaractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaractView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A141B0882B022A010009CB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0982B022A020009CB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0A22B022A020009CB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A141B0822B022A010009CB7A = {
+			isa = PBXGroup;
+			children = (
+				A141B08D2B022A010009CB7A /* Immobiler */,
+				A141B09E2B022A020009CB7A /* ImmobilerTests */,
+				A141B0A82B022A020009CB7A /* ImmobilerUITests */,
+				A141B08C2B022A010009CB7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A141B08C2B022A010009CB7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A141B08B2B022A010009CB7A /* Immobiler.app */,
+				A141B09B2B022A020009CB7A /* ImmobilerTests.xctest */,
+				A141B0A52B022A020009CB7A /* ImmobilerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A141B08D2B022A010009CB7A /* Immobiler */ = {
+			isa = PBXGroup;
+			children = (
+				A141B0BF2B022E1D0009CB7A /* view */,
+				A141B0BC2B022C1D0009CB7A /* repository */,
+				A141B0B92B022B1C0009CB7A /* data */,
+				A141B08E2B022A010009CB7A /* ImmobilerApp.swift */,
+				A141B0922B022A020009CB7A /* Assets.xcassets */,
+				A141B0942B022A020009CB7A /* Preview Content */,
+			);
+			path = Immobiler;
+			sourceTree = "<group>";
+		};
+		A141B0942B022A020009CB7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A141B0952B022A020009CB7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A141B09E2B022A020009CB7A /* ImmobilerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A141B09F2B022A020009CB7A /* ImmobilerTests.swift */,
+			);
+			path = ImmobilerTests;
+			sourceTree = "<group>";
+		};
+		A141B0A82B022A020009CB7A /* ImmobilerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A141B0A92B022A020009CB7A /* ImmobilerUITests.swift */,
+				A141B0AB2B022A020009CB7A /* ImmobilerUITestsLaunchTests.swift */,
+			);
+			path = ImmobilerUITests;
+			sourceTree = "<group>";
+		};
+		A141B0B92B022B1C0009CB7A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				A141B0BA2B022B6B0009CB7A /* House.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		A141B0BC2B022C1D0009CB7A /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				A141B0BD2B022C750009CB7A /* HouseRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		A141B0BF2B022E1D0009CB7A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A141B0C02B022E580009CB7A /* HouseMainView.swift */,
+				A141B0C22B0231D80009CB7A /* CatalogView.swift */,
+				A1B99A0A2B0B55AD00E3F6A1 /* CaractView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A141B08A2B022A010009CB7A /* Immobiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A141B0AF2B022A020009CB7A /* Build configuration list for PBXNativeTarget "Immobiler" */;
+			buildPhases = (
+				A141B0872B022A010009CB7A /* Sources */,
+				A141B0882B022A010009CB7A /* Frameworks */,
+				A141B0892B022A010009CB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Immobiler;
+			productName = Immobiler;
+			productReference = A141B08B2B022A010009CB7A /* Immobiler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A141B09A2B022A020009CB7A /* ImmobilerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A141B0B22B022A020009CB7A /* Build configuration list for PBXNativeTarget "ImmobilerTests" */;
+			buildPhases = (
+				A141B0972B022A020009CB7A /* Sources */,
+				A141B0982B022A020009CB7A /* Frameworks */,
+				A141B0992B022A020009CB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A141B09D2B022A020009CB7A /* PBXTargetDependency */,
+			);
+			name = ImmobilerTests;
+			productName = ImmobilerTests;
+			productReference = A141B09B2B022A020009CB7A /* ImmobilerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A141B0A42B022A020009CB7A /* ImmobilerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A141B0B52B022A020009CB7A /* Build configuration list for PBXNativeTarget "ImmobilerUITests" */;
+			buildPhases = (
+				A141B0A12B022A020009CB7A /* Sources */,
+				A141B0A22B022A020009CB7A /* Frameworks */,
+				A141B0A32B022A020009CB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A141B0A72B022A020009CB7A /* PBXTargetDependency */,
+			);
+			name = ImmobilerUITests;
+			productName = ImmobilerUITests;
+			productReference = A141B0A52B022A020009CB7A /* ImmobilerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A141B0832B022A010009CB7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A141B08A2B022A010009CB7A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A141B09A2B022A020009CB7A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A141B08A2B022A010009CB7A;
+					};
+					A141B0A42B022A020009CB7A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A141B08A2B022A010009CB7A;
+					};
+				};
+			};
+			buildConfigurationList = A141B0862B022A010009CB7A /* Build configuration list for PBXProject "Immobiler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A141B0822B022A010009CB7A;
+			productRefGroup = A141B08C2B022A010009CB7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A141B08A2B022A010009CB7A /* Immobiler */,
+				A141B09A2B022A020009CB7A /* ImmobilerTests */,
+				A141B0A42B022A020009CB7A /* ImmobilerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A141B0892B022A010009CB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A141B0962B022A020009CB7A /* Preview Assets.xcassets in Resources */,
+				A141B0932B022A020009CB7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0992B022A020009CB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0A32B022A020009CB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A141B0872B022A010009CB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B99A0B2B0B55AD00E3F6A1 /* CaractView.swift in Sources */,
+				A141B0BE2B022C750009CB7A /* HouseRepository.swift in Sources */,
+				A141B0C12B022E580009CB7A /* HouseMainView.swift in Sources */,
+				A141B0BB2B022B6B0009CB7A /* House.swift in Sources */,
+				A141B0C32B0231D80009CB7A /* CatalogView.swift in Sources */,
+				A141B08F2B022A010009CB7A /* ImmobilerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0972B022A020009CB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A141B0A02B022A020009CB7A /* ImmobilerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0A12B022A020009CB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A141B0AA2B022A020009CB7A /* ImmobilerUITests.swift in Sources */,
+				A141B0AC2B022A020009CB7A /* ImmobilerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A141B09D2B022A020009CB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A141B08A2B022A010009CB7A /* Immobiler */;
+			targetProxy = A141B09C2B022A020009CB7A /* PBXContainerItemProxy */;
+		};
+		A141B0A72B022A020009CB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A141B08A2B022A010009CB7A /* Immobiler */;
+			targetProxy = A141B0A62B022A020009CB7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A141B0AD2B022A020009CB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A141B0AE2B022A020009CB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A141B0B02B022A020009CB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Immobiler/Preview Content\"";
+				DEVELOPMENT_TEAM = T4JA7D6WYG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.Immobiler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A141B0B12B022A020009CB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Immobiler/Preview Content\"";
+				DEVELOPMENT_TEAM = T4JA7D6WYG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.Immobiler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A141B0B32B022A020009CB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4JA7D6WYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ImmobilerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Immobiler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Immobiler";
+			};
+			name = Debug;
+		};
+		A141B0B42B022A020009CB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4JA7D6WYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ImmobilerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Immobiler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Immobiler";
+			};
+			name = Release;
+		};
+		A141B0B62B022A020009CB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4JA7D6WYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ImmobilerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Immobiler;
+			};
+			name = Debug;
+		};
+		A141B0B72B022A020009CB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4JA7D6WYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ImmobilerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Immobiler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A141B0862B022A010009CB7A /* Build configuration list for PBXProject "Immobiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A141B0AD2B022A020009CB7A /* Debug */,
+				A141B0AE2B022A020009CB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A141B0AF2B022A020009CB7A /* Build configuration list for PBXNativeTarget "Immobiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A141B0B02B022A020009CB7A /* Debug */,
+				A141B0B12B022A020009CB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A141B0B22B022A020009CB7A /* Build configuration list for PBXNativeTarget "ImmobilerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A141B0B32B022A020009CB7A /* Debug */,
+				A141B0B42B022A020009CB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A141B0B52B022A020009CB7A /* Build configuration list for PBXNativeTarget "ImmobilerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A141B0B62B022A020009CB7A /* Debug */,
+				A141B0B72B022A020009CB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A141B0832B022A010009CB7A /* Project object */;
+}
